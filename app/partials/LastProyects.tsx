@@ -48,10 +48,13 @@ const LastProyects = () => {
         .
       </p>
 
-      <ul className="flex gap-6">
+      <ul className="flex gap-6 ">
         {lastProyects.map((p) => (
           <>
-            <li key={p.title} className=" w-full  rounded-xl dark:border-gray-700 border border-gray-300">
+            <li
+              key={p.title}
+              className=" w-full bg-gray-50 dark:bg-gray-900 dark:bg-opacity-20 bg-opacity-20 backdrop-filter backdrop-blur-sm  rounded-xl dark:border-gray-700 border border-gray-300"
+            >
               <div className="flex mx-auto items-center justify-center mt-6 gap-11">
                 <Link
                   href={p.repo}
@@ -92,3 +95,7 @@ const LastProyects = () => {
 };
 
 export default LastProyects;
+
+// const proyect = () => (
+
+// );

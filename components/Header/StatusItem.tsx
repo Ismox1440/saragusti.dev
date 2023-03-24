@@ -1,6 +1,6 @@
 "use client";
 import { Indicator } from "@/app/components/Discord";
-import { useStatus } from "@/lib/discord";
+import { useStatus } from "@/lib";
 import { AnimateComponent } from "@/utils/AnimateComponent";
 import Link from "next/link";
 

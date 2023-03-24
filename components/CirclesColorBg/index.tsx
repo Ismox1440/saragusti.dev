@@ -1,5 +1,4 @@
 "use client";
-
 import { motion } from "framer-motion";
 
 const animation = {
@@ -20,3 +19,4 @@ export const CirclesColorBg = () => {
     ></motion.div>
   );
 };
+

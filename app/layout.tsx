@@ -2,14 +2,16 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 import { Footer } from "./partials/Footer";
 import Header from "@/components/Header/Header";
+import { CirclesColorBg } from "@/components/CirclesColorBg";
 import { Providers } from "./Provider";
+import { AnimateComponent } from "@/utils/AnimateComponent";
 
 const interVariable = Inter();
 
 export const metadata = {
   title: "Ismael Saragusti",
   generator: "Next.js",
-  icons: [{rel: "icon", url: "./"}],
+  icons: [{ rel: "icon", url: "./" }],
   applicationName: "ismael saragusti porfolio",
   referrer: "origin-when-cross-origin",
   keywords: [
@@ -60,6 +62,7 @@ export default function RootLayout({
             {children}
           </main>
           <Footer />
+          <CirclesColorBg />
         </Providers>
       </body>
     </html>

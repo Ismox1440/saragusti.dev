@@ -1,7 +1,6 @@
 import { Inter } from "next/font/google";
 import { Hero } from "./partials/Hero";
 import { AboutMe, LastProyects, ContactMe } from "./partials/";
-import { CirclesColorBg } from "@/components/CirclesColorBg/CirclesColorBg";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -13,10 +12,7 @@ export default function Home() {
         <AboutMe />
         <LastProyects />
         <ContactMe />
-        <CirclesColorBg />
       </div>
     </div>
   );
 }
-
-

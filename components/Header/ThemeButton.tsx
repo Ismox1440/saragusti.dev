@@ -21,7 +21,7 @@ const ThemeButton = () => {
           fill="none"
           stroke="currentColor"
           enableBackground="accumulate"
-          className="w-5 h-5 text-gray-300 group-hover:text-gray-800 dark:text-gray-500 dark:group-hover:text-gray-200 transition ease"
+          className="w-5 h-5 text-gray-500 group-hover:text-gray-800 dark:text-gray-500 dark:group-hover:text-gray-200 transition ease"
         >
           {resolvedTheme === "dark" ? (
             <path
