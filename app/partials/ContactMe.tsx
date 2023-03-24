@@ -30,7 +30,7 @@ export const ContactMe = () => {
             </div>
           </a>
           <a
-            href="https://walink.co/2369d5"
+            href="https://wa.link/q8umql"
             target="_blank"
             rel="noreferrer"
             className="w-full"
