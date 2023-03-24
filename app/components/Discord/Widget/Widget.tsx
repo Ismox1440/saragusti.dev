@@ -104,7 +104,7 @@ export function Widget(): JSX.Element {
   ].filter((item) => item !== null);
 
   return (
-    <div className="flex flex-col space-y-5 w-full max-w-sm mx-auto px-4 py-4 bg-white/50 dark:bg-gray-900/50 dark:border-gray-600 backdrop-filter backdrop-blur-sm border-2 border-gray-200 rounded-lg hover:shadow-lg default-transition">
+    <div className="flex flex-col space-y-5 w-full max-w-md mx-auto px-4 py-4 bg-white/50 dark:bg-gray-900/50 dark:border-gray-600 backdrop-filter backdrop-blur-sm border-2 border-gray-200 rounded-lg hover:shadow-lg default-transition">
       {activities.map((activity, index) => {
         return (
           <Fragment key={index}>

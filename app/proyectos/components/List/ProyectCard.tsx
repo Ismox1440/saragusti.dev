@@ -1,4 +1,3 @@
-import React from "react";
 import { Action } from "./Action";
 import { AiOutlineHome } from "react-icons/ai";
 import { FiGithub } from "react-icons/fi";

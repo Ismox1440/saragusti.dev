@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import { Menu, Transition } from "@headlessui/react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import clsx from "clsx";
@@ -31,7 +30,7 @@ const MobileNav = ({ items }) => {
           >
             <Menu.Items
               className={clsx(
-                "absolute w-[calc(100vw-1rem)] sm:w-56 mt-2 bg-gray-50 bg-opacity-90 dark:bg-gray-900 dark:bg-opacity-90  backdrop-filter backdrop-blur-md border border-gray-200 dark:border-gray-500 rounded-md  divide-y divide-gray-100 dark:divide-gray-500 focus:outline-none",
+                "absolute w-[calc(100vw-1rem)] sm:w-56 mt-2 bg-gray-50 bg-opacity-90 dark:bg-gray-900 dark:bg-opacity-90  backdrop-filter backdrop-blur-md border border-gray-200 dark:border-gray-500 rounded-md  divide-y divide-gray-100 dark:divide-gray-800 focus:outline-none",
                 "origin-top-right right-0"
               )}
             >
@@ -42,7 +41,7 @@ const MobileNav = ({ items }) => {
                       return (
                         <Link
                           className={clsx(
-                            "flex items-center  px-4 py-2 gap-2 text-md tracking-wide cursor-pointer transition-all",
+                            "flex items-center  px-4 py-2 gap-2 text-sm tracking-wide cursor-pointer transition-all",
                             active
                               ? " text-gray-900 dark:text-gray-50"
                               : "text-gray-600 hover:text-gray-700 dark:text-gray-300 dark:hover:text-white"

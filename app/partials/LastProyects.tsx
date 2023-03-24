@@ -39,6 +39,8 @@ const LastProyects = () => {
         perfil en {""}
         <a
           href={myGithub}
+          aria-label="github"
+          title="github"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-black dark:hover:text-white hover:underline transition-all ease"
@@ -59,6 +61,8 @@ const LastProyects = () => {
                 <Link
                   href={p.repo}
                   target="_blank"
+                  aria-label={p.title}
+                  title={p.title}
                   className="group w-9 h-9 bg-dark rounded-lg bg-white bg-opacity-50 dark:bg-black dark:bg-opacity-10 ring-1 ring-gray-200 hover:ring-gray-200 dark:ring-gray-700 dark:hover:ring-gray-600  group-hover:text-gray-800 dark:text-gray-500 dark:group-hover:text-gray-200 flex items-center justify-center transition ease"
                 >
                   <AiFillGithub />

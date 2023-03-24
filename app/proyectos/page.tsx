@@ -1,8 +1,4 @@
-
-import { fetchProjects } from "@/lib/github";
-import React, { Suspense } from "react";
 import ProyectsList from "./components/List/ProyectsList";
-
 
 const page = () => {
   return (

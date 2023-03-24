@@ -1,4 +1,4 @@
-import React, { ReactElement } from "react";
+import { ReactElement } from "react";
 import Link from "next/link";
 
 const NavItem = ({ title, icon, href }: { title: string; icon: ReactElement, href: string }) => {

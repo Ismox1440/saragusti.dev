@@ -1,5 +1,4 @@
 import { fetchProjects } from "@/lib/github";
-import React from "react";
 import ProyectCard from "./ProyectCard";
 
 const ProyectsList = async () => {
