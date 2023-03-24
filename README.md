@@ -8,10 +8,6 @@ Bienvenidos a mi sitio web personal. Aquí encontrarás información sobre mí, 
 
 [Reportar un problema](https://github.com/Ismox1440/saragusti.dev/issues/new) · [Sitio Web](https://saragusti.dev/)
 
-![Licencia](https://img.shields.io/github/license/Ismox1440/saragusti.dev?style=for-the-badge)
-![Issues](https://img.shields.io/github/issues/Ismox1440/saragusti.dev?style=for-the-badge)
-![Stars](https://img.shields.io/github/stars/Ismox1440/saragusti.dev?style=for-the-badge)
-
 ## 🚀 Cómo empezar
 
 1. **Clona el repositorio:**
