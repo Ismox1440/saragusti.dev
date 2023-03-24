@@ -1,5 +1,6 @@
 import { AnimateComponent } from "@/utils/AnimateComponent";
-import SkillsAndTools from "./components/SkillsAndTools";
+import SkillsAndTools from "./partials/SkillsAndTools";
+import Contact from "./partials/Contact";
 
 const page = () => {
   return (
@@ -9,7 +10,6 @@ const page = () => {
           <h2 className="font-bold text-4xl md:text-5xl tracking-tight mb-8 text-black dark:text-white text-center">
             Sobre mi
           </h2>
-
           <p className="text-base text-gray-600 dark:text-gray-400">
             Mi nombre es Ismael Saragusti, tengo 20 años y soy de Córdoba,
             Argentina. Comencé a aprender programación web de forma autodidacta
@@ -21,6 +21,7 @@ const page = () => {
           </p>
         </AnimateComponent>
         <SkillsAndTools />
+        <Contact />
       </div>
     </section>
   );
