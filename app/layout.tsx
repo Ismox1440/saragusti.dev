@@ -10,9 +10,24 @@ const interVariable = Inter();
 export const metadata = {
   openGraph: {
     title: "Ismael Saragusti - Portfolio",
+    siteName: "saragusti.dev",
+    url: "https://www.saragusti.dev/",
+    type: "website",
     description:
       "Descubre mi portafolio personal donde podrás encontrar información sobre mí, así como mis proyectos más recientes. Además, encontrarás múltiples formas de contactarme para cualquier duda o consulta.",
-    images: "../public/images/og-image",
+    images: [
+      {
+        url: "https://res.cloudinary.com/dlekwh1wn/image/upload/c_scale,h_600,w_800/v1679784268/og-image_hpfnw1.png",
+        width: 800,
+        height: 600,
+      },
+      {
+        url: "https://res.cloudinary.com/dlekwh1wn/image/upload/c_scale,h_1600,w_1800/v1679784268/og-image_hpfnw1.png",
+        width: 1800,
+        height: 1600,
+        alt: "og image",
+      },
+    ],
   },
   title: "Ismael Saragusti",
   generator: "Next.js",
