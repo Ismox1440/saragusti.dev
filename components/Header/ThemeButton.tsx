@@ -14,7 +14,7 @@ const ThemeButton = () => {
         aria-label="Toggle Dark Mode"
         title="toggle theme"
         type="button"
-        className="group w-9 h-9 bg-dark rounded-lg bg-white  dark:bg-black dark:bg-opacity-80 ring-1 ring-gray-200 hover:ring-gray-200 dark:ring-gray-700 dark:hover:ring-gray-600  group-hover:text-gray-800 dark:text-gray-600 dark:group-hover:text-gray-200 flex items-center justify-center transition ease"
+        className="group w-9 h-9 bg-dark rounded-lg bg-white  dark:bg-gray-900 dark:bg-opacity-80 ring-1 ring-gray-200 hover:ring-gray-200 dark:ring-gray-700 dark:hover:ring-gray-600  group-hover:text-gray-800 dark:text-gray-600 dark:group-hover:text-gray-200 flex items-center justify-center transition ease"
         onClick={() => setTheme(resolvedTheme === "dark" ? "light" : "dark")}
       >
         {changeTheme && (

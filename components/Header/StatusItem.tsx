@@ -12,7 +12,6 @@ const colors = {
 
 const StatusItem = () => {
   const { color, status, loading } = useStatus();
-  console.log(color)
   if (loading) return;
   return (
     <AnimateComponent>

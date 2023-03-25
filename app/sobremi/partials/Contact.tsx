@@ -48,7 +48,7 @@ const contactItems = [
 const Contact = () => {
   return (
     <AnimateComponent>
-      <h2 className="font-bold text-2xl md:text-2xl tracking-tight text-black dark:text-white text-start">
+      <h2 id="contact" className="font-bold text-2xl md:text-2xl tracking-tight text-black dark:text-white text-start">
         Contacto
       </h2>
       <p className="text-base text-gray-600 dark:text-gray-400">

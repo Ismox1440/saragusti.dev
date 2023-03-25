@@ -1,5 +1,5 @@
 import { BiArchive, BiHomeAlt2 } from "react-icons/bi";
-import { BsPerson } from "react-icons/bs";
+import { BsPerson, BsDownload } from "react-icons/bs";
 import { ThemeButton, StatusItem, NavItem } from "./";
 import { AnimateComponent } from "@/utils/AnimateComponent";
 import MobileNav from "./MobileNav";
@@ -20,6 +20,12 @@ const items = [
     href: "/sobremi",
     title: "Sobre mi",
   },
+  {
+    icon: <BsDownload size={20} />,
+    href: "https://drive.google.com/file/d/1cUkTwOB46blnFusEOv18NY50RBtFu--r/view",
+    title: "Curriculum",
+    external: true,
+  },
 ];
 
 const Header = () => {
@@ -29,24 +35,18 @@ const Header = () => {
         <AnimateComponent>
           <div className="flex gap-2">
             <div className="lg:flex gap-2 hidden">
-              <NavItem
-                icon={<BiHomeAlt2 size={20} />}
-                href={"/"}
-                title="Inicio"
-              />
-              <NavItem
-                icon={<BiArchive size={20} />}
-                href={"/proyectos"}
-                title="Proyectos"
-              />
-              <NavItem
-                icon={<BsPerson size={20} />}
-                href={"/sobremi"}
-                title="Sobre Mi"
-              />
+              {items.map((item) => (
+                <NavItem
+                  key={item.title}
+                  icon={item.icon}
+                  href={item.href}
+                  title={item.title}
+                  external={item.external}
+                />
+              ))}
               <StatusItem />
             </div>
-            <MobileNav items={items}/>
+            <MobileNav items={items} />
           </div>
         </AnimateComponent>
         <ThemeButton />

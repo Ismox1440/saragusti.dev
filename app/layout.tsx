@@ -4,11 +4,16 @@ import { Footer } from "./partials/Footer";
 import Header from "@/components/Header/Header";
 import { CirclesColorBg } from "@/components/CirclesColorBg";
 import { Providers } from "./Provider";
-import { AnimateComponent } from "@/utils/AnimateComponent";
 
 const interVariable = Inter();
 
 export const metadata = {
+  openGraph: {
+    title: "Ismael Saragusti - Portfolio",
+    description:
+      "Descubre mi portafolio personal donde podrás encontrar información sobre mí, así como mis proyectos más recientes. Además, encontrarás múltiples formas de contactarme para cualquier duda o consulta.",
+    images: "../public/images/og-image",
+  },
   title: "Ismael Saragusti",
   generator: "Next.js",
   icons: [{ rel: "icon", url: "./" }],
