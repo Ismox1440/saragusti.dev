@@ -27,6 +27,7 @@ export const metadata = {
         alt: "og image",
       },
     ],
+  
   },
   openGraph: {
     title: "Ismael Saragusti - Portfolio",
@@ -51,7 +52,7 @@ export const metadata = {
   },
   title: "Ismael Saragusti",
   generator: "Next.js",
-  icons: [{ rel: "icon", url: "./" }],
+  icons: [{ rel: "icon", url: "./favicon.ico" }],
   applicationName: "ismael saragusti porfolio",
   referrer: "origin-when-cross-origin",
   keywords: [
@@ -90,9 +91,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <head>
-        <meta />
-      </head>
       <body className="bg-gray-50 dark:bg-gray-900 transition ease">
         <Providers>
           <Header />
