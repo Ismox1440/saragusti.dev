@@ -8,6 +8,10 @@ import { Providers } from "./Provider";
 const interVariable = Inter();
 
 export const metadata = {
+  twitter: {
+    title: "Ismael Saragusti Portafolio",
+    card: "summary",
+  },
   openGraph: {
     title: "Ismael Saragusti - Portfolio",
     siteName: "saragusti.dev",
@@ -70,6 +74,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
+      <head>
+        <meta />
+      </head>
       <body className="bg-gray-50 dark:bg-gray-900 transition ease">
         <Providers>
           <Header />
