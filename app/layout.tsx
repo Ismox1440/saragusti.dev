@@ -10,7 +10,23 @@ const interVariable = Inter();
 export const metadata = {
   twitter: {
     title: "Ismael Saragusti Portafolio",
-    card: "summary",
+    card: "summary_large_image",
+    description: "Mi portafolio personal",
+    creator: "Ismael Saragusti",
+    site: "https://www.saragusti.dev/",
+    images: [
+      {
+        url: "https://res.cloudinary.com/dlekwh1wn/image/upload/c_scale,h_600,w_800/v1679784268/og-image_hpfnw1.png",
+        width: 800,
+        height: 600,
+      },
+      {
+        url: "https://res.cloudinary.com/dlekwh1wn/image/upload/c_scale,h_1600,w_1800/v1679784268/og-image_hpfnw1.png",
+        width: 1800,
+        height: 1600,
+        alt: "og image",
+      },
+    ],
   },
   openGraph: {
     title: "Ismael Saragusti - Portfolio",
