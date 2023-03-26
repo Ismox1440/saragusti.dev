@@ -50,7 +50,7 @@ const LastProyects = () => {
         .
       </p>
 
-      <ul className="flex gap-6 ">
+      <ul className="flex flex-col lg:flex-row gap-6 w-[80%] mx-auto lg:w-full">
         {lastProyects.map((p) => (
           <li
             key={p.title}

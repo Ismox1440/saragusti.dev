@@ -12,7 +12,7 @@ const MobileNav = ({ items }) => {
         <>
           <Menu.Button
             className={clsx(
-              "group w-9 h-9 text-gray-600 rounded-lg  bg-white bg-opacity-50 dark:bg-black dark:bg-opacity-80 ring-1 ring-gray-200 hover:ring-gray-200 dark:ring-gray-700 dark:hover:ring-gray-600  group-hover:text-gray-800 dark:text-gray-200 dark:group-hover:text-gray-200 flex items-center justify-center transition ease"
+              "group w-9 h-9 text-gray-600 rounded-lg  bg-white bg-opacity-50 dark:bg-gray-900 dark:bg-opacity-80 ring-1 ring-gray-200 hover:ring-gray-200 dark:ring-gray-700 dark:hover:ring-gray-600  group-hover:text-gray-800 dark:text-gray-200 dark:group-hover:text-gray-200 flex items-center justify-center transition ease"
             )}
           >
             <RxHamburgerMenu />
