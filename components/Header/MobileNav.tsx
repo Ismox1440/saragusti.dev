@@ -31,7 +31,7 @@ const MobileNav = ({ items }) => {
             <Menu.Items
               className={clsx(
                 "absolute w-[calc(100vw-1rem)] sm:w-56 mt-2 bg-gray-50 bg-opacity-90 dark:bg-gray-900 dark:bg-opacity-90  backdrop-filter backdrop-blur-md border border-gray-200 dark:border-gray-500 rounded-md  divide-y divide-gray-100 dark:divide-gray-800 focus:outline-none",
-                "origin-top-right right-0"
+                "origin-top-right -right-5"
               )}
             >
               {items.map((item, index) => (
