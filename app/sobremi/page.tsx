@@ -1,6 +1,5 @@
 import { AnimateComponent } from "@/utils/AnimateComponent";
 import SkillsAndTools from "./partials/SkillsAndTools";
-import Contact from "./partials/Contact";
 
 const page = () => {
   return (
@@ -21,7 +20,6 @@ const page = () => {
           </p>
         </AnimateComponent>
         <SkillsAndTools />
-        <Contact />
       </div>
     </section>
   );
