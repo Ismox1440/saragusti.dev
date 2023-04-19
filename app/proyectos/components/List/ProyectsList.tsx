@@ -3,6 +3,7 @@ import ProyectCard from "./ProyectCard";
 
 const ProyectsList = async () => {
   const proyects = await fetchProjects();
+  console.log(proyects)
   return (
     <ul className="flex flex-col w-full gap-3">
       {proyects.map((proyect, index) => (
