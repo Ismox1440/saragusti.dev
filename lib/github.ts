@@ -6,6 +6,7 @@ import type { GitHubRepos, Project } from "@/types/github";
 export async function fetchProjects(): Promise<Array<Project> | null> {
   const response = await fetch("https://api.github.com/users/Ismox1440/repos", {
     headers: {
+      "Cache-Control": "no-cache",
       ...(process.env.GITHUB_PAT && {
         authorization: `token ${process.env.GITHUB_PAT}`,
       }),
