@@ -7,21 +7,21 @@ import Link from "next/link";
 const lastProyects = [
   {
     image:
-      "https://res.cloudinary.com/dlekwh1wn/image/upload/v1670735265/PawsFounding_ip2y5g.png",
+      "https://res.cloudinary.com/dlekwh1wn/image/upload/v1685395351/pokemonmarketportfolio_wexngu.png",
+    title: "Pokemon Market",
+    repo: "https://github.com/Ismox1440/Pokemon-Market",
+    link: "https://pokemon-market-landing.vercel.app/",
+    description:
+      "Aplicación de mercado de Pokémon que integra tecnologías frontend y backend para ofrecer una variedad de funcionalidades. Permite a los usuarios comprar, vender e intercambiar Pokémon en una interfaz atractiva y fácil de usar.",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dlekwh1wn/image/upload/v1685396806/pwsfo_ykgvtk.png",
     title: "Paws Founding",
     repo: "https://github.com/lioarce01/PF-Henry-Grupo05",
     link: "http://pf-henry-grupo05.vercel.app/",
     description:
       "Diseñar y desarrollar una App de crowdfounding con funciones de red social. Incluye creación y autenticación de usuarios, filtros, búsquedas, posteos, comentarios, donaciones a través de mercadopago, creación de organizaciones, etc.",
-  },
-  {
-    image:
-      "https://res.cloudinary.com/dlekwh1wn/image/upload/v1670736165/countries-activites_ypov6w.png",
-    title: "Countries - Activities",
-    repo: "https://github.com/Ismox1440/PI-Countries-main",
-    link: "https://countries-activities.ga/",
-    description:
-      "Desarrollo de una app web de paises y actividades turisticas, la misma muestra una lista de todos los paises de forma minimalista, con diferentes filtros y ordenamientos combinados. Una de las principales funciones es la de poder crear actividades turísticas y filtrar paises con estas mismas.",
   },
 ];
 
@@ -76,13 +76,15 @@ const LastProyects = () => {
             </div>
             <div className="relative rounded-[15px]  p-6">
               <div className="space-y-3">
-                <Image
-                  width={400}
-                  height={400}
-                  src={p.image}
-                  alt={p.title}
-                  className="rounded mx-auto shadow-[inset_0_-2px_4px_rgba(0,0,0,1)]"
-                />
+                <div className="w-[200px] flex flex-col items-center justify-center mx-auto h-[200px]">
+                  <Image
+                    width={200}
+                    height={200}
+                    src={p.image}
+                    alt={p.title}
+                    className="rounded mx-auto"
+                  />
+                </div>
                 <p className="text-lg dark:text-gray-50 font-semibold text-slate-800">
                   {p.title}
                 </p>
